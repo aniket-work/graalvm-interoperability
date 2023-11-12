@@ -1,0 +1,10 @@
+com\aniket\graalvm\interoperability\persistence\PortfolioRepository.class
+com\aniket\graalvm\interoperability\service\PortfolioService.class
+com\aniket\graalvm\interoperability\controller\PortfolioController.class
+com\aniket\graalvm\interoperability\constant\PythonConstants.class
+com\aniket\graalvm\interoperability\bridge\LanguageBridge.class
+com\aniket\graalvm\interoperability\model\Project.class
+com\aniket\graalvm\interoperability\service\RecommendationService.class
+com\aniket\graalvm\interoperability\PortfolioAdvisorApp.class
+com\aniket\graalvm\interoperability\model\Portfolio.class
+com\aniket\graalvm\interoperability\model\StartupEvent.class
