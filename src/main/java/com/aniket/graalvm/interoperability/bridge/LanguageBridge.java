@@ -15,7 +15,6 @@ import static com.aniket.graalvm.interoperability.constant.PythonConstants.*;
 public class LanguageBridge {
 
     ResourceLoader resourceLoader;
-
     public LanguageBridge(ResourceLoader resourceLoader) {
         this.resourceLoader = resourceLoader;
     }
@@ -31,8 +30,7 @@ public class LanguageBridge {
                                 .getResource(PY_PATH)
                                 .getFile()
                                 .toPath()
-                                .toString()
-                ).build();
+                                .toString()).build();
 
         Source source = Source.newBuilder(
                     "python", resourceLoader.getResource(PY_PATH + PORTFOLIO_ADVISOR_PY).getFile()).build();

@@ -26,7 +26,7 @@ ENV MAVEN_CONFIG "$USER_HOME_DIR/.m2"
 RUN touch /app/graalvm-interoperability.log
 
 # Setup spring-application
-RUN mkdir -p /projectmatcher
+RUN mkdir -p /portfolioadvisor
 COPY . .
 EXPOSE 8080
 RUN mvn clean install -Dmaven.test.skip=true

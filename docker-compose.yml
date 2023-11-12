@@ -6,4 +6,3 @@ services:
       dockerfile: Dockerfile
     ports:
       - "8080:8080"
-      - "9092:9092" # Add this line to map the H2 Database port
